@@ -14,6 +14,54 @@ h1, h2, h3 {
     font-weight: normal;
 }
 
+#page-title {
+    font-weight: bold;
+}
+
+.pagenum {
+    position: absolute;
+    right: 10px;
+    font-size: small;
+}
+
+p {
+    text-align: justify;
+    margin-top: .75em;
+    margin-bottom: .75em;
+}
+
+pre {
+    /* text-align: center; not passing */
+    width: fit-content;
+    /* margin: auto; */
+    margin: 100px auto;
+}
+
+/* for the links in the introduction and
+closing sections (the <pre> blocks), or children */
+pre a {
+    color: black;
+}
+
+pre a:visited {
+    color: black;
+}
+
+/* remove underlines from all links */
+a {
+    text-decoration: none;
+}
+
+/* add underline & bold to links during hover */
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:visited {
+    color: purple;
+}
+
 h1 {
     margin: 0;
     padding: 0;
